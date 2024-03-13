@@ -122,6 +122,35 @@ header {
   font-size: 2rem;
   margin-bottom: 0.7rem;
 }
+
+/* Project Page */
+.heading {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  font-size: 4.5rem;
+}
+.card {
+  padding: 0.8rem;
+  margin: 1rem 4rem;
+  background-color: #1f1e1e;
+  border-radius: 0.9rem;
+  box-shadow: 2px 2px 6px #313131;
+  display: flex;
+}
+.card img {
+  max-width: 320px;
+}
+.card-left {
+  margin-left: 0.5rem;
+}
+.card .title {
+  font-weight: 600;
+  margin-top: 3px;
+  font-size: 2rem;
+}
+.card .desc {
+  margin-top: 4px;
+} 
 footer {
   background-color: #0F0F0F;
   text-align: center;

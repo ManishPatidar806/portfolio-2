@@ -1,6 +1,7 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header"
-
+import CoderSvg from "../assets/coder.svg"
+import ProjectCard from "../components/ProjectCard"
 type Props = {}
 
 function Projects({}: Props) {
@@ -8,11 +9,11 @@ function Projects({}: Props) {
     <div>
         <Header/>
         <main className="wrapper column">
-            <h1>Projects</h1>
+            <h1 className="heading">Projects</h1>
             <hr/>
-            <div className="card">
-                
-            </div>
+            <ProjectCard title="ChatNow" image={CoderSvg} description="Welcome to my portfolio! 🌟 Explore my journey as a developer through this interactive and visually appealing website."/>
+            <ProjectCard title="ChatNow" image={CoderSvg} description="Welcome to my portfolio! 🌟 Explore my journey as a developer through this interactive and visually appealing website."/>
+            <ProjectCard title="ChatNow" image={CoderSvg} description="Welcome to my portfolio! 🌟 Explore my journey as a developer through this interactive and visually appealing website."/>
         </main>
         <Footer/>
     </div>
